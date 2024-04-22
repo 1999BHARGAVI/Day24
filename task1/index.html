@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        
+        h1{
+            background-color: black;
+            color: yellow;
+        }
+        
+        .grid-container{
+            display: grid;
+            background-color: blueviolet;
+            grid-template-columns: auto auto auto;
+            grid-template-rows:auto auto auto   ;
+            
+            row-gap: 5px;
+            column-gap: 5px;
+            width: 1000px;
+            height:500px;
+            padding: 10px;
+
+
+        }
+        .grid-container div{
+            background-color: aqua;
+            
+        
+        }
+        body{
+            background-color: black;
+        } 
+    </style>
+</head>
+<body>
+    <center><h1>task1</h1>
+<div class="grid-container">
+    <div style="grid-column:1/4; width:auto"><h2>HEADER</h2></div>
+    <div style="grid-row:2/4 ;"><h2>MENU</h2></div>
+    <div><h2>MAIN</h2></div>
+    <div><h2>RIGHT</h2></div>
+    <div style="grid-column:2/4;width:auto"><h2>FOOTER</h2></div>
+    </div>  
+</center>  
+    
+</body>
+</html>
